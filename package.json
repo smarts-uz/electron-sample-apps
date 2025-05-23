@@ -1,0 +1,28 @@
+{
+  "name": "electron-sample-apps",
+  "version": "1.0.0",
+  "description": "Electron sample applications",
+  "scripts": {
+    "camera": "electron camera",
+    "client-certificate": "electron client-certificate",
+    "cookies": "electron cookies",
+    "crash-report": "electron crash-report",
+    "desktop-capture": "electron desktop-capture",
+    "file-explorer": "electron file-explorer",
+    "frameless-window": "electron frameless-window",
+    "helloworld": "electron helloworld",
+    "helloworld-sharedobj": "electron helloworld-sharedobj",
+    "menus": "electron menus",
+    "mini-code-editor": "electron mini-code-editor",
+    "mp3-encoder": "electron mp3-encoder",
+    "notifications": "electron notifications",
+    "pepper-flash-plugin": "electron pepper-flash-plugin",
+    "power-save-blocker": "electron power-save-blocker",
+    "printing": "electron printing",
+    "service-worker": "electron service-worker",
+    "spell-check": "electron spell-check",
+    "tray": "electron tray",
+    "webgl": "electron webgl",
+    "webview": "electron webview"
+  }
+} 

@@ -7,16 +7,17 @@ app.on('window-all-closed', function() {
     app.quit();
 });
 
-//app.commandLine.appendSwitch('client-certificate',
-                             //'path/to/client-certificates/ssl/client.crt');
+app.commandLine.appendSwitch('client-certificate',
+                             'client-certificate/ssl/client.crt');
 
 app.on('ready', function() {
   mainWindow = new BrowserWindow({
     'width': 800,
     'height': 600,
+    'autoHideMenuBar': true,
     webPreferences: {
       nodeIntegration: true}
   });
 
-  mainWindow.loadURL('https://localhost:5000');
+  mainWindow.loadURL('http://localhost:8080/');
 });
